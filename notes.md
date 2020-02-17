@@ -1,3 +1,10 @@
+Features:  
+- [x] seats with clor indicator, identifying whether its occupied or vacant
+- [ ] color changes if close to destination (seat)
+- [ ] select seat to open modal
+- [x] add bus information
+
+Notes:  
 first of all i had to start small
 because sometimes we tend to think of our project as this awesome thing, and keep on adding features, which in return: overwhelming us 
 
@@ -20,8 +27,8 @@ which is very important when it comes to output base
 
 which for this project was to help conductors of bus, to take note which seats are occupied or vacant.
 
-Problem One:
-    answering the core question
+Problem One:  
+    answering the core question  
         - i created a box, made out of just a div with few style
         - then went straight into javascript
 

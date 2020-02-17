@@ -11,33 +11,49 @@
 </head>
 
 <body>
-    
-    <div id="bus-app">
-        <div class="row">
-            <div class="seat" id="seat01" onclick="seat01.updateSeat()"></div>
-            <div class="seat" id="seat02" onclick="seat02.updateSeat()"></div>
-            <div class="seat" id="seat03" onclick="seat03.updateSeat()"></div>
-            <div class="seat" id="seat04" onclick="seat04.updateSeat()"></div>
-        </div>
-        <!-- <div class="row">
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-        </div>
-        <div class="row">
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-        </div>
-        <div class="row">
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-        </div> -->
 
+
+    <div id="bus-app">
+        <!-- bus info -->
+        <div id="bus-info">
+            <table>
+                <tr>
+                    <th colspan="2">Bus Number: 001</th>
+                </tr>
+                <tr>
+                    <td>Driver: John Quala</td>
+                    <td>Conductor: Joe Kangaroo</td>
+                </tr>
+                <tr>
+                    <td>Departure Time: 6:00PM</td>
+                    <td>Est. of Arrival: 11:00PM</td>
+                </tr>
+
+            </table>
+
+        </div>
+        <div id="seats">
+            <div class="row">
+                <div class="seat" id="seat01" onclick="seat01.updateSeat()"></div>
+                <div class="seat" id="seat02" onclick="seat02.updateSeat()"></div>
+                <div class="seat" id="seat03" onclick="seat03.updateSeat()"></div>
+                <div class="seat" id="seat04" onclick="seat04.updateSeat()"></div>
+            </div>
+            <div class="row">
+                <div class="seat" id="seat05" onclick="seat05.updateSeat()"></div>
+                <div class="seat" id="seat06" onclick="seat06.updateSeat()"></div>
+                <div class="seat" id="seat07" onclick="seat07.updateSeat()"></div>
+                <div class="seat" id="seat08" onclick="seat08.updateSeat()"></div>
+            </div>
+            <div class="row">
+                <div class="seat" id="seat09" onclick="seat09.updateSeat()"></div>
+                <div class="seat" id="seat10" onclick="seat10.updateSeat()"></div>
+                <div class="seat" id="seat11" onclick="seat11.updateSeat()"></div>
+                <div class="seat" id="seat12" onclick="seat12.updateSeat()"></div>
+            </div>
+        </div>
+
+       
     </div>
 
     <script src="JS/index.js"></script>
@@ -46,4 +62,5 @@
     <!-- <h1>BUS APP v001</h1> -->
     <p>© WEB Bus App</p>
 </footer>
+
 </html>

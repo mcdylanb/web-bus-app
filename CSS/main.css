@@ -1,19 +1,69 @@
+/* some color palette
+#292930 - grey
+#FCC133 - yellow
+#3EB650 - green
+#E12B38 -red
+
+*/
+
 * {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
 }
+#bus-app {
+   
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    justify-content: center;
+    
+}
+
+#bus-info{
+    display:flex;
+    justify-content: center;
+    background-color: #292930;
+    color: white;
+}
+
+th, td{
+    padding: 5px;
+}
+
+th {
+    font-size: 1.5em;
+}
+td{
+    font-size: 0.5em;
+}
+
+#seats {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width:96%;
+    margin: 2%;
+}
+
 .seat {
     height: 25px;
     width: 25px;
-    border: solid 1px black;
+    
     margin: 5px;
 }
 
-#bus-app {
-    display:flex;
-    flex-direction: column;
-}
+
 
 .row {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    width:100%;
+    
+}
+
+
+footer {
+    text-align: center;
 }
