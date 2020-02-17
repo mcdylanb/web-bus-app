@@ -23,20 +23,21 @@ class Seat {
 
 }
 
-const seat01Ele = document.getElementById("seat01");
-const seat02Ele = document.getElementById("seat02");
-const seat03Ele = document.getElementById("seat03");
-const seat04Ele = document.getElementById("seat04");
+const seat01Ele = document.getElementsByClassName("seat")[0];
+const seat02Ele = document.getElementsByClassName("seat")[1];
+const seat03Ele = document.getElementsByClassName("seat")[2];
+const seat04Ele = document.getElementsByClassName("seat")[3];
 
-const seat05Ele = document.getElementById("seat05");
-const seat06Ele = document.getElementById("seat06");
-const seat07Ele = document.getElementById("seat07");
-const seat08Ele = document.getElementById("seat08");
+const seat05Ele = document.getElementsByClassName("seat")[4];
+const seat06Ele = document.getElementsByClassName("seat")[5];
+const seat07Ele = document.getElementsByClassName("seat")[6];
+const seat08Ele = document.getElementsByClassName("seat")[7];
 
-const seat09Ele = document.getElementById("seat09");
-const seat10Ele = document.getElementById("seat10");
-const seat11Ele = document.getElementById("seat11");
-const seat12Ele = document.getElementById("seat12");
+const seat09Ele = document.getElementsByClassName("seat")[8];
+const seat10Ele = document.getElementsByClassName("seat")[9];
+const seat11Ele = document.getElementsByClassName("seat")[10];
+const seat12Ele = document.getElementsByClassName("seat")[11];
+
 
 let seat01 = new Seat(seat01Ele);
 let seat02 = new Seat(seat02Ele);
@@ -53,4 +54,7 @@ let seat10 = new Seat(seat10Ele);
 let seat11 = new Seat(seat11Ele);
 let seat12 = new Seat(seat12Ele);
 
-// console.log(seat01.updateSeat);
+
+
+// let seat01 = new Seat(seatEle01);
+// let seat02 = new Seat(seatEle02);
