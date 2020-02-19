@@ -15,7 +15,7 @@
 
     <div id="bus-app">
         <!-- bus info -->
-        <div id="bus-info">
+        <!-- <div id="bus-info">
             <table>
                 <tr>
                     <th colspan="2">Bus Number: 001</th>
@@ -31,29 +31,67 @@
 
             </table>
 
-        </div>
+        </div> -->
         <div id="seats">
-            <div class="row">
-                <div class="seat" onclick="seat01.updateSeat()"></div>
-                <div class="seat" onclick="seat02.updateSeat()"></div>
-                <div class="seat" onclick="seat03.updateSeat()"></div>
-                <div class="seat" onclick="seat04.updateSeat()"></div>
+            <div id="seat-display">
+                <div class="row">
+                    <div class="seat" onclick="seat01.updateSeat()"></div>
+                    <div class="seat" onclick="seat02.updateSeat()"></div>
+                    <div class="seat" onclick="seat03.updateSeat()"></div>
+                    <div class="seat" onclick="seat04.updateSeat()"></div>
+                </div>
+                <div class="row">
+                    <div class="seat" onclick="seat05.updateSeat()"></div>
+                    <div class="seat" onclick="seat06.updateSeat()"></div>
+                    <div class="seat" onclick="seat07.updateSeat()"></div>
+                    <div class="seat" onclick="seat08.updateSeat()"></div>
+                </div>
+                <div class="row">
+                    <div class="seat" onclick="seat09.updateSeat()"></div>
+                    <div class="seat" onclick="seat10.updateSeat()"></div>
+                    <div class="seat" onclick="seat11.updateSeat()"></div>
+                    <div class="seat" onclick="seat12.updateSeat()"></div>
+                </div>
             </div>
-            <div class="row">
-                <div class="seat" onclick="seat05.updateSeat()"></div>
-                <div class="seat" onclick="seat06.updateSeat()"></div>
-                <div class="seat" onclick="seat07.updateSeat()"></div>
-                <div class="seat" onclick="seat08.updateSeat()"></div>
-            </div>
-            <div class="row">
-                <div class="seat" onclick="seat09.updateSeat()"></div>
-                <div class="seat" onclick="seat10.updateSeat()"></div>
-                <div class="seat" onclick="seat11.updateSeat()"></div>
-                <div class="seat" onclick="seat12.updateSeat()"></div>
+            <div id="seat-info" class="flex-column">
+                <form action="">
+
+                    <div class="flex-row form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" />
+                    </div>
+
+
+                    <div class="flex-row form-group">
+
+                        <label for="from">From:</label>
+                        <select name="from" id="from-select">
+                            <option value=""></option>
+                            <option value="mandaue">Mandaue</option>
+                            <option value="lascion">Lascion</option>
+                            <option value="liloan">Liloan</option>
+                            <option value="compostela">Compostela</option>
+                        </select>
+
+
+                        <label for="from">To:</label>
+                        <select name="from" id="from-select">
+                            <option value=""></option>
+                            <option value="mandaue">Mandaue</option>
+                            <option value="lascion">Lascion</option>
+                            <option value="liloan">Liloan</option>
+                            <option value="compostela">Compostela</option>
+                        </select>
+
+                    </div>
+
+
+                </form>
             </div>
         </div>
 
-       
+
+
     </div>
 
     <script src="JS/index.js"></script>

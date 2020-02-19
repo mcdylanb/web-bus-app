@@ -17,6 +17,7 @@
     flex-direction: column;
     width:100%;
     justify-content: center;
+    border: 1px solid red;
     
 }
 
@@ -25,6 +26,8 @@
     justify-content: center;
     background-color: #292930;
     color: white;
+    border: 1px solid yellow;
+    height: 20vh;
 }
 
 th, td{
@@ -37,19 +40,22 @@ th {
 td{
     font-size: 0.5em;
 }
-
 #seats {
+    display:flex;
+    flex-direction: row;
+}
+#seat-display {
+    height: 80vh;
     display:flex;
     flex-direction: column;
     justify-content: center;
-    width:96%;
-    margin: 2%;
+    width:60vw;
+    border: 1px solid green;
 }
 
 .seat {
-    height: 25px;
-    width: 25px;
-    
+    height: 10vh;
+    width: 10vw;
     margin: 5px;
 }
 
@@ -63,7 +69,30 @@ td{
     
 }
 
+#seat-info {
+    border: 1px solid blue;
+    height: 80vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width:40vw;
+    align-items: center;
+}
+.form-group {
+    margin: 25px 0 25px 0;
+}
+
 
 footer {
     text-align: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
 }
